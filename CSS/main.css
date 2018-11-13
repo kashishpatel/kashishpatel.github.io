@@ -1,0 +1,40 @@
+/* Global Reset
+------------------------------------------------------------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+@font-face {
+  font-family: 'Inconsolata';
+  src: local('Inconsolata'), url('https://fonts.gstatic.com/s/inconsolata/v15/BjAYBlHtW3CJxDcjzrnZCIgp9Q8gbYrhqGlRav_IXfk.woff2') format('truetype'); }
+
+body {
+  font: 20px Inconsolata, monospace;
+  background: #fff;
+  color: #222; }
+
+h4 {
+  margin-top: 50px; 
+}
+
+a{
+  font-size: 20px;
+  font-weight: bold;
+  color: #222;
+  line-height: 1.6; 
+  text-decoration: none; 
+}
+  
+a:hover {
+  color: #222;
+  background-color: #ff0;
+  text-decoration: none; }
+
+#experience a{
+  font-size: 20px;
+  font-weight: bold;
+  color: #222;
+  line-height: 1; 
+  text-decoration: none; 
+}
