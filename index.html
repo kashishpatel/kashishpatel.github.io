@@ -1,128 +1,144 @@
-<!DOCTYPE html>
-<html class="no-js" lang="en">
-<!--<![endif]-->
+<!doctype html>
+<html lang="en"><head>
+	<meta name="generator" content="Hugo 0.71.1" />
+    <title>Kashish Patel</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./css/theme.css"/>
 
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>Kashish Patel</title>
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<link rel="stylesheet" href="./CSS/dgrid.css">
-	<link rel="stylesheet" href="./CSS/typeplate.css">
-	<link rel="stylesheet" href="./CSS/main.css">
-	<link href="./CSS/css" rel="stylesheet" type="text/css">
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130697959-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
 
-		gtag('config', 'UA-130697959-1');
-	</script>
+    <link rel="stylesheet/less" type="text/css" href="styles/main.less"><style type="text/css" id="less:styles-main">
+      
+      </style>
+          <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.js"></script>
+          <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+          <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.terminal/1.4.3/js/jquery.terminal.js"></script>
+          <script type="text/javascript" src="src/shell.js"></script>
+          <script type="text/javascript" src="src/cli.js"></script>
+        <style>.cip-genpw-icon.cip-icon-key-small {background-image: url(moz-extension://61bd9c90-abe8-884f-840e-4262b77bb286/icons/key_16x16.png); }
+      .cip-genpw-icon.cip-icon-key-big {background-image: url(moz-extension://61bd9c90-abe8-884f-840e-4262b77bb286/icons/key_24x24.png); }
+      </style>
+
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-130697959-1"></script> 
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+  
+      gtag('config', 'UA-130697959-1');
+    </script>
+    
 </head>
+<body>
+        <div id="content" class="mx-auto"><header class="container mt-sm-5 mt-4 mb-4 mt-xs-1">
+    <div class="row">
+        <div class="col-sm-4 col-12 text-sm-right text-center pt-sm-4">
+            <a href="./" class="text-decoration-none">
+                <img id="home-image" class="rounded-circle"
+                    
+                        src="./images/avatar.png"
+                    
+                />
+            </a>
+        </div>
+        <div class="col-sm-8 col-12 text-sm-left text-center">
+            <h2 class="m-0 mb-2 mt-4">
+                <a href="./" class="text-decoration-none">
+                    
+                        Kashish Patel
+                    
+                </a>
+            </h2>
+            <p class="text-muted mb-1">
+                
+                    Duke CS, Backend/Full-Stack engineer; Worked at Bridgewater Associates, General Electric, and a few early-stage startups.
+                
+            </p>
+            <ul id="nav-links" class="list-inline mb-2">
+                    <li class="list-inline-item">
+                      <a class="badge badge-white " href="./index.html" title="Home">Home</a>
+                    </li>                
+                    <li class="list-inline-item">
+                        <a class="badge badge-white " href="./about/" title="About">About</a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a class="badge badge-white " href="./posts/" title="Blog Posts">Blog Posts</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="badge badge-white " href="./data/Resume - Kashish Patel.pdf" title="Resume">Resume</a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a class="badge badge-white " href="./index.html" title="Terminal">Terminal</a>
+                    </li>
+                
+            </ul>
+            <ul id="nav-social" class="list-inline">
+                
+                    <li class="list-inline-item mr-3">
+                        <a href="http://github.com/kashishpatel" target="_blank">
+                            <i class="fab fa-github fa-1x text-muted"></i>
+                        </a>
+                    </li>
+                
+                    <li class="list-inline-item mr-3">
+                        <a href="https://www.linkedin.com/in/kashish-patel/" target="_blank">
+                            <i class="fab fa-linkedin-in fa-1x text-muted"></i>
+                        </a>
+                    </li>
+                
+                    <li class="list-inline-item mr-3">
+                        <a href="https://t.me/kashishpatel" target="_blank">
+                            <i class="fab fa-telegram fa-1x text-muted"></i>
+                        </a>
+                    </li>
+                
+                    <li class="list-inline-item mr-3">
+                        <a href="mailto:kashishkpatel@gmail.com" target="_blank">
+                            <i class="fas fa-envelope fa-1x text-muted"></i>
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+    <hr />
+    <div class="terminal-window">
+        <header>
+          <div class="button red"></div>
+          <div class="button yellow"></div>
+          <div class="button green"></div>
+        </header>
+        <div id="terminal">
+          <p><span class = "green">Last Login: </span><span class="green" id="last-login"></span><span class = "green"> on tty01</span></p>
+          <p>Type `help` to get started.</p>
+            <p class="hidden">
+              <span class="prompt">
+                <span class="root">root</span>
+                <span class="tick">❯</span>
+              </span>
+              <span class="input" contenteditable="true"></span>
+            </p>
+        </div>
+      </div>
+</header>
 
-<body data-gr-c-s-loaded="true">
-	<div id="site-container" class="grid">
-		<div id="site-content" role="main">
-			<div class="row">
-				<div class="c6">
-					<br>
-					<h4>Hi, I'm <strong>Kashish</strong>. 👋 </h4>
-				</div>
-				<div class="c12">
-					<h5>Software Engineer • Data Lover • Problem Solver</h5>
-				</div>
-			</div>
-			<div class="row">
-				<div class="c2" id="quick-links">
-					⚑&nbsp;<a href="http://kashishpatel.com/Resume - Kashish Patel.pdf">Resume</a><br>
-					⚑&nbsp;<a href="https://www.linkedin.com/in/kashish-patel">LinkedIn</a><br>
-					⚑&nbsp;<a href="mailto:kashishkpatel@gmail.com?Subject=Hello">Email Me</a><br><br>
-				</div>
-			</div>
-			<div class="row">
-				<div class="c12">
-					Welcome to my website! <br><br>
-					I'm avid learner and detail-oriented Software Engineer looking for a backend role with the ability
-					to work on data projects.<br>
-					<br>Preferred languages are Java & Python but open to anything (previous experience includes
-					projects in Go, Ruby on Rails, and Android development). <br><br>
-					Interested in connecting with a collaborative team of awesome people and a company with a mission in
-					which I believe. I learn/adapt quickly and enjoy working with teams who inspire and challenge me.
-					<br><br>
-					Most recently an engineer at <strong>Bridgewater Associates </strong> (Hedge Fund) working on
-					investment research technology. Open to opportunities across industries in the Greater NYC and
-					Boston areas.
-
-
-					<br><br>Feel free to
-					<strong><a href="mailto:kashishkpatel@gmail.com?Subject=Hello">email me</a></strong> at
-					<strong><a href="mailto:kashishkpatel@gmail.com?Subject=Hello">kashishkpatel at
-							gmail.com.</a></strong><br><br>
-				</div>
-			</div>
-			<div class="row" id="experience">
-				<div class="c4">
-					<strong>EXPERIENCE</strong><br><br>
-					<a href="https://www.bwater.com/">Bridgewater Associates</a><br>
-					<a href="https://www.gehealthcare.com/">GE Digital (GE Healthcare)</a><br>
-					<a
-						href="https://www.prnewswire.com/news-releases/vitagene-intends-to-acquire-in-video-impressions-to-accelerate-the-delivery-of-personalized-health-and-wellness-products-300887710.html">In-Video
-						Impressions (Aquired)</a><br>
-					<a href="https://www.daylightdata.com/">Daylight Data Consulting</a><br>
-
-				</div>
-				<div class="c4">
-					<strong></strong><br><br>
-					<strong>Product Integration Engineer<strong><br>
-							<strong>Software Engineering Intern<strong><br>
-									<strong>Software Engineering Intern<strong><br>
-											<strong>Software Development Intern<strong>
-				</div>
-				<div class="c4">
-					<strong></strong><br><br>
-					<strong>Feb 2019 - Oct 2019<strong><br>
-							<strong>May 2018 - Aug 2018<strong><br>
-									<strong>Aug 2017 - Dec 2017<strong><br>
-											<strong>May 2017 - Aug 2017<strong>
-				</div>
-			</div>
-			<div class="row" id="education">
-				<div class="c4">
-					<strong>EDUCATION</strong><br><br>
-					<strong>Duke University<strong><br>
-				</div>
-				<div class="c4">
-					<strong></strong><br><br>
-					<strong>B.S. Computer Science<strong><br>
-							<strong>Minors in Finance &</strong><br>
-							<strong>Decision Science</strong><br>
-				</div>
-				<div class="c4">
-					<strong></strong><br><br>
-					<strong>Aug 2015 - Dec 2018<strong>
-				</div>
-			</div>
-			<div class="row" id="skills">
-				<div class="c4">
-					<strong>SKILLS</strong><br><br>
-					Languages:<br>
-					Databases:<br>
-					Frameworks:<br>
-					Tools:<br>
-				</div>
-				<div class="c8">
-					<br><br>
-					Java, Python, JavaScript<br>
-					MySQL, PostgreSQL, MongoDB<br>
-					Spring Boot, Django, Flask, Vue.js<br>
-					AWS (EC2, S3, RDS), Docker, Git, Android SDK<br>
-					REST, JSON, HTML, CSS<br>
-				</div>
-			</div>
-		</div>
+            </div>
+        </div><footer class="text-center pb-1">
+    <small class="text-muted">
+        
+            &copy; Copyright 2020, Kashish Patel
+        
+        <br>
+        Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a>
+        and <a href="https://github.com/austingebauer/devise" target="_blank">Devise</a>
+    </small>
+</footer>
 </body>
-
 </html>
+<script>
+  var today = new Date();
+  document.getElementById("last-login").innerHTML = today.toUTCString();
+
+</script>
