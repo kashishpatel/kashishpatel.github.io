@@ -138,3 +138,29 @@
 .terminal-data {
   display: none;
 }
+
+
+@media only screen and (max-width: 768px) {
+  .terminal-window{ 
+    width: 500px;
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .terminal-window{ 
+    width: 350px;
+    height: 175px;
+  }
+}
+@media only screen and (max-width: 374px) {
+  .terminal-window{ 
+    display: none !important;
+  }
+  .mobile-hide{
+    color: currentColor;
+    cursor: not-allowed;
+    opacity: 0.5;
+    text-decoration: none;
+  }
+}
